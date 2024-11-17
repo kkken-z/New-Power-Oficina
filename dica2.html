@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicas</title>
+    <link rel="stylesheet" href="confDicas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <header id="header">
+        <a href="index.html" class="logo">New Power</a>
+        <ul>
+            <li><a href="index.html" onclick="toggle()">Home</a></li>
+            <li><a href="dica1.html" onclick="toggle()">Dica 1</a></li>
+            <li><a href="dica2.html" onclick="toggle()">Dica 2</a></li>
+            <li><a href="dica3.html" onclick="toggle()">Dica 3</a></li>
+            <li><a href="dica4.html" onclick="toggle()">Dica 4</a></li>
+            <li><a href="dica5.html" onclick="toggle()">Dica 5</a></li>
+            <li><a href="dica6.html" onclick="toggle()">Dica 6</a></li>
+            <li><a href="dica7.html" onclick="toggle()">Dica 7</a></li>
+            <li><a href="dica8.html" onclick="toggle()">Dica 8</a></li>
+
+
+
+        </ul>
+        <div class="toggle" onclick="toggle()"></div>
+    </header>
+
+    <section class="sec" id="about">
+        <div class="content">
+            <div class="mxw800p">
+                <h3>Escolhendo as Peças Certas para o Seu Carro</h3>
+                <p>Ao trocar alguma peça do seu carro, é fundamental escolher produtos de qualidade para garantir o bom
+                    funcionamento do veículo. Mas como escolher as peças certas
+                </p>
+                <h2>As peças originais são a melhor opção!</h2>
+
+                <p><strong>•Qualidade:</strong> As peças originais são fabricadas de acordo com as especificações do
+                    fabricante do veículo, garantindo o melhor encaixe e desempenho.
+
+                </p>
+                <p><strong>•Durabilidade:</strong> As peças originais são projetadas para durar mais tempo, reduzindo a
+                    necessidade de novas trocas.
+                </p>
+                <p><strong>•Garantia:</strong> As peças originais geralmente possuem garantia mais extensa.
+                </p>
+
+                <h2>Quais os riscos de utilizar peças paralelas?</h2>
+                <p><strong>•Desempenho Reduzido:</strong> Peças paralelas podem não ter o mesmo desempenho das
+                    originais, afetando o funcionamento do veículo.
+                </p>
+                <p><strong>•Vida útil menor:</strong> Peças paralelas podem se desgastar mais rapidamente, necessitando
+                    de trocas mais frequentes.
+                </p>
+                <p><strong>•Problemas de compatibilidade:</strong>: Peças paralelas podem não ser totalmente compatíveis
+                    com o seu veículo, causando problemas mecânicos.
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+        function toggle() {
+            var header = document.querySelector("header");
+            header.classList.toggle("active");
+        }
+    </script>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Business</h4>
+                <ul>
+                    <li><a href="nossaHistoria.html">About Us</a></li>
+                    <li><a href="index.html">Experience</a></li>
+                    <li><a href="privacidade.html">Privacy Policy</a></li>
+                    <li><a href="termos.html">Terms of Use</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="pagamento.html">Payment Methods</a>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="revisaoPrev.html">Preventive Review</a></li>
+                    <li><a href="suspensao.html">Suspension</a></li>
+                    <li><a href="freios.html">Brakes</a></li>
+                    <li><a href="injecaoElo.html">Electronic Injection</a></li>
+                    <li><a href="trocaDeOleo.html">Oil Change</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/newpowermecanica/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+        function toggle() {
+            var header = document.querySelector("header");
+            header.classList.toggle("active");
+        }
+    </script>
+
+</body>
+
+</html>

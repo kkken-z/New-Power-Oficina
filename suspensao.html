@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="confDicas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+        <header id="header">
+            <a href="index.html" class="logo">New Power</a>
+            <ul>
+                <li><a href="index.html" onclick="toggle()">Home</a></li>
+                <li><a href="revisaoPrev.html" onclick="toggle()">Revisão</a></li>
+                <li><a href="suspensao.html" onclick="toggle()">Suspensão</a></li>
+                <li><a href="freios.html" onclick="toggle()">Freios</a></li>
+                <li><a href="injecaoElo.html" onclick="toggle()">EFI</a></li>
+                <li><a href="trocaDeOleo.html" onclick="toggle()">TO</a></li>
+                <li><a href="arCondicionado.html" onclick="toggle()">AC</a></li>
+    
+            </ul>
+            <div class="toggle" onclick="toggle()"></div>
+        </header>
+
+    <section class="sec" id="about">
+        <div class="content">
+            <div class="mxw800p">
+                <h3>Suspension</h3>
+                <p>The suspension is one of the most important systems for the good performance and safety of your vehicle. She
+                    is responsible for absorbing the impacts of terrain irregularities, providing smooth driving
+                    smoother and more comfortable, in addition to maintaining the car's stability during the journey. When the
+                    suspension is in good condition, you feel the difference in driving comfort and safety,
+                    especially when cornering and braking.
+                </p>
+                <p>Composed of several components such as shock absorbers, springs, bushings and stabilizer bars, the
+                    suspension has the function of keeping the tires in constant contact with the ground, which is crucial for the
+                    vehicle stability. A well-calibrated suspension system also helps ensure wear and tear
+                    uniformity of the tires, preventing them from wearing unevenly, which could affect grip and performance.
+                    vehicle performance.</p>
+                <p>Suspension maintenance must be done regularly, as the components in this part of the car are
+                    exposed to constant wear due to factors such as the condition of the roads, the weight of the vehicle and the
+                    driving style. Worn shock absorbers and springs can affect the car's ability to absorb
+                    impacts and maintain stability, especially during sudden braking or when passing through holes and
+                    speed bumps.</p>
+                <p>In addition to improving comfort and safety, a well-maintained suspension can also impact
+                    positively improve drivability and fuel consumption. This is because when the suspension
+                    is not working properly, the car may become more difficult to control, requiring more
+                    driver and engine effort to maintain speed and stability.</p>
+                </p>
+                <p>To ensure that your vehicle's suspension is always in perfect condition, it is important to carry out
+                    periodic checks. If you notice that the car is having difficulty absorbing
+                    impacts, if there are strange noises, if the steering is stiffer or if the car tends to "jump" more
+                    than usual, it may be a sign that it is time to review the suspension system.</p>
+                <p>Investing in preventive suspension maintenance is essential for your safety and comfort when driving.
+                    drive. The team of qualified professionals will be ready to carry out the complete review and
+                    ensure that your vehicle is always ready to face any road with confidence.</p>
+            </div>
+        </div>
+    </section>
+
+    </header>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+        function toggle() {
+            var header = document.querySelector("header");
+            header.classList.toggle("active");
+        }
+    </script>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Business</h4>
+                <ul>
+                    <li><a href="nossaHistoria.html">About Us</a></li>
+                    <li><a href="index.html">Experience</a></li>
+                    <li><a href="privacidade.html">Privacy Policy</a></li>
+                    <li><a href="termos.html">Terms of Use</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="pagamento.html">Payment Methods</a>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="revisaoPrev.html">Preventive Review</a></li>
+                    <li><a href="suspensao.html">Suspension</a></li>
+                    <li><a href="freios.html">Brakes</a></li>
+                    <li><a href="injecaoElo.html">Electronic Injection</a></li>
+                    <li><a href="trocaDeOleo.html">Oil Change</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/newpowermecanica/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+
+</html>

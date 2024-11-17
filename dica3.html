@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicas</title>
+    <link rel="stylesheet" href="confDicas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <header id="header">
+        <a href="index.html" class="logo">New Power</a>
+        <ul>
+            <li><a href="index.html" onclick="toggle()">Home</a></li>
+            <li><a href="dica1.html" onclick="toggle()">Dica 1</a></li>
+            <li><a href="dica2.html" onclick="toggle()">Dica 2</a></li>
+            <li><a href="dica3.html" onclick="toggle()">Dica 3</a></li>
+            <li><a href="dica4.html" onclick="toggle()">Dica 4</a></li>
+            <li><a href="dica5.html" onclick="toggle()">Dica 5</a></li>
+            <li><a href="dica6.html" onclick="toggle()">Dica 6</a></li>
+            <li><a href="dica7.html" onclick="toggle()">Dica 7</a></li>
+            <li><a href="dica8.html" onclick="toggle()">Dica 8</a></li>
+
+
+
+        </ul>
+        <div class="toggle" onclick="toggle()"></div>
+    </header>
+
+    <section class="sec" id="about">
+        <div class="content">
+            <div class="mxw800p">
+                <h3>A Importância de Escolher um Centro Automotivo de Confiança</h3>
+                <p>Escolher um centro automotivo de confiança é essencial para garantir a qualidade dos serviços
+                    prestados ao seu veículo. Mas como identificar um bom centro automotivo?
+                </p>
+
+                <h2>Aqui estão algumas dicas:</h2>
+                <p><strong>•Experiência e Reputação:</strong> Procure por um centro automotivo com experiência no
+                    mercado e boas avaliações de clientes.
+                </p>
+                <p><strong>•Equipe Qualificada:</strong> Certifique-se de que a equipe técnica é altamente qualificada e
+                    especializada.
+                </p>
+                <p><strong>•Transparência:</strong> Um bom centro automotivo utiliza apenas peças originais de alta
+                    qualidade.
+                </p>
+                <p><strong>•Uso de Peças Originais:</strong> O centro automotivo deve ser transparente em relação aos
+                    serviços prestados e aos custos envolvidos.
+                </p>
+                <p><strong>•Garantia</strong> Um centro de confiança oferece garantia para os serviços realizados.
+                </p>
+
+
+                <h2>Por que escolher nosso centro automotivo?</h2>
+                <p><strong>•Equipe Experiente:</strong> Nossa equipe é composta por profissionais altamente qualificados
+                    e com vasta experiência.
+                </p>
+                <p><strong>•Peças Originais:</strong> Utilizamos apenas peças originais para garantir a qualidade e
+                    durabilidade.
+                </p>
+                <p><strong>•Serviços de Qualidade:</strong> Oferecemos uma ampla gama de serviços automotivos, desde
+                    manutenções preventivas até reparos complexos.
+                </p>
+                <p><strong>•Atendimento Personalizado:</strong> Nosso compromisso é oferecer um atendimento
+                    personalizado e transparente.
+                </p>
+                <p><strong>•Não deixe seu carro nas mãos de qualquer um!</strong> Escolha um centro automotivo de
+                    confiança e tenha a tranquilidade de saber que seu veículo está em boas mãos.
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+        function toggle() {
+            var header = document.querySelector("header");
+            header.classList.toggle("active");
+        }
+    </script>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Business</h4>
+                <ul>
+                    <li><a href="nossaHistoria.html">About Us</a></li>
+                    <li><a href="index.html">Experience</a></li>
+                    <li><a href="privacidade.html">Privacy Policy</a></li>
+                    <li><a href="termos.html">Terms of Use</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="pagamento.html">Payment Methods</a>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="revisaoPrev.html">Preventive Review</a></li>
+                    <li><a href="suspensao.html">Suspension</a></li>
+                    <li><a href="freios.html">Brakes</a></li>
+                    <li><a href="injecaoElo.html">Electronic Injection</a></li>
+                    <li><a href="trocaDeOleo.html">Oil Change</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/newpowermecanica/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+        function toggle() {
+            var header = document.querySelector("header");
+            header.classList.toggle("active");
+        }
+    </script>
+
+</body>
+
+</html>

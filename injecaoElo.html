@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="confDicas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <header id="header">
+        <a href="index.html" class="logo">New Power</a>
+        <ul>
+            <li><a href="index.html" onclick="toggle()">Home</a></li>
+            <li><a href="revisaoPrev.html" onclick="toggle()">Revisão</a></li>
+            <li><a href="suspensao.html" onclick="toggle()">Suspensão</a></li>
+            <li><a href="freios.html" onclick="toggle()">Freios</a></li>
+            <li><a href="injecaoElo.html" onclick="toggle()">EFI</a></li>
+            <li><a href="trocaDeOleo.html" onclick="toggle()">TO</a></li>
+            <li><a href="arCondicionado.html" onclick="toggle()">AC</a></li>
+
+        </ul>
+        <div class="toggle" onclick="toggle()"></div>
+    </header>
+
+    <section class="sec" id="about">
+        <div class="content">
+            <div class="mxw800p">
+                <h3>Injeção Eletrônica</h3>
+                <p>A injeção eletrônica é um dos sistemas mais avançados e importantes do seu veículo, responsável por
+                    controlar a mistura de ar e combustível que entra no motor. Esse controle preciso permite que o
+                    motor funcione de maneira mais eficiente, o que resulta em melhor desempenho, menor consumo de
+                    combustível e redução de emissões de poluentes. Com a injeção eletrônica, seu carro alcança o
+                    equilíbrio ideal entre potência e economia, proporcionando uma condução mais suave e ágil.
+                </p>
+                <p>O sistema de injeção eletrônica é composto por diversos sensores e atuadores que monitoram e ajustam
+                    continuamente os parâmetros do motor, como a quantidade de combustível e a abertura das válvulas.
+                    Isso significa que a quantidade de combustível que entra no motor é ajustada de forma inteligente,
+                    conforme as condições de direção, como aceleração, velocidade e carga do motor, garantindo uma
+                    queima mais eficiente do combustível.</p>
+                <p>A manutenção da suspensão deve ser feita regularmente, já que os componentes dessa parte do carro são
+                    expostos a desgaste constante devido a fatores como a condição das vias, o peso do veículo e o
+                    estilo de condução. Amortecedores e molas desgastados podem afetar a capacidade do carro de absorver
+                    impactos e de manter a estabilidade, especialmente em frenagens bruscas ou ao passar por buracos e
+                    lombadas.</p>
+                <p>Além de melhorar o desempenho e a eficiência do combustível, a injeção eletrônica também contribui
+                    para a durabilidade do motor, uma vez que evita o excesso de combustível e a combustão incompleta,
+                    que poderiam levar ao desgaste prematuro das peças internas. O sistema também facilita a partida do
+                    motor, especialmente em condições climáticas adversas, garantindo um funcionamento mais estável e
+                    rápido.</p>
+                </p>
+                <p>Apesar de ser um sistema altamente confiável, a injeção eletrônica exige manutenção regular para
+                    garantir seu funcionamento ideal. Fatores como o acúmulo de sujeira nos bicos injetores ou falhas
+                    nos sensores podem afetar o desempenho do motor e causar aumento no consumo de combustível, falhas
+                    no arranque ou até mesmo perda de potência. Por isso, é importante realizar a limpeza dos bicos
+                    injetores e a verificação dos componentes do sistema de injeção eletrônica periodicamente.</p>
+                <p>A manutenção preventiva da injeção eletrônica não só melhora o desempenho do seu carro, mas também
+                    contribui para uma condução mais econômica e ecologicamente correta. Realizar verificações regulares
+                    com um profissional qualificado é fundamental para garantir que o sistema continue funcionando de
+                    maneira eficiente, prolongando a vida útil do motor e evitando problemas maiores no futuro.</p>
+            </div>
+        </div>
+    </section>
+
+    </header>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+        function toggle() {
+            var header = document.querySelector("header");
+            header.classList.toggle("active");
+        }
+    </script>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Business</h4>
+                <ul>
+                    <li><a href="nossaHistoria.html">About Us</a></li>
+                    <li><a href="index.html">Experience</a></li>
+                    <li><a href="privacidade.html">Privacy Policy</a></li>
+                    <li><a href="termos.html">Terms of Use</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="pagamento.html">Payment Methods</a>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="revisaoPrev.html">Preventive Review</a></li>
+                    <li><a href="suspensao.html">Suspension</a></li>
+                    <li><a href="freios.html">Brakes</a></li>
+                    <li><a href="injecaoElo.html">Electronic Injection</a></li>
+                    <li><a href="trocaDeOleo.html">Oil Change</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/newpowermecanica/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+
+</html>

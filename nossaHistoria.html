@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="confDicas.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <header id="header">
+        <a href="index.html" class="logo">New Power</a>
+        <ul>
+            <li><a href="index.html" onclick="toggle()">Home</a></li>
+            
+
+
+        </ul>
+        <div class="toggle" onclick="toggle()"></div>
+    </header>
+
+    <section class="sec" id="about">
+        <div class="content">
+            <div class="mxw800p">
+                <h3>Nossa História</h3>
+                <p>Fundada em 1993, nossa empresa nasceu com o objetivo de oferecer serviços de reparação automotiva de
+                    qualidade, sempre priorizando a confiança e a satisfação de nossos clientes. O início foi modesto:
+                    um pequeno espaço equipado com ferramentas básicas, mas com um grande sonho e o compromisso de fazer
+                    a diferença no setor automotivo.</p>
+                    <p>Desde o primeiro dia, acreditamos que cada cliente merece um atendimento personalizado e que cada
+                    veículo deve ser tratado com o máximo cuidado e dedicação. Foi essa filosofia que nos ajudou a
+                    crescer, conquistando não apenas clientes, mas verdadeiros parceiros que confiam em nosso trabalho.
+                    Ao longo dos anos, investimos em tecnologia, capacitação da nossa equipe e ampliação das nossas
+                    instalações, garantindo que sempre estivéssemos preparados para atender às mais diversas demandas,
+                    desde pequenos reparos até serviços mais complexos.</p>
+                    <p>Hoje, com décadas de experiência e um histórico sólido, continuamos comprometidos com o mesmo
+                    propósito que nos guiou desde o início: oferecer soluções automotivas eficientes, rápidas e de
+                    confiança, sempre com um toque humano e um olhar atento às necessidades dos nossos clientes.</p>
+                    <h4>Venha nos conhecer e fazer parte da nossa história!</h4>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    </header>
+
+    <script type="text/javascript">
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+        function toggle() {
+            var header = document.querySelector("header");
+            header.classList.toggle("active");
+        }
+    </script>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>Business</h4>
+                <ul>
+                    <li><a href="nossaHistoria.html">About Us</a></li>
+                    <li><a href="index.html">Experience</a></li>
+                    <li><a href="privacidade.html">Privacy Policy</a></li>
+                    <li><a href="termos.html">Terms of Use</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Support</h4>
+                <ul>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="pagamento.html">Payment Methods</a>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="revisaoPrev.html">Preventive Review</a></li>
+                    <li><a href="suspensao.html">Suspension</a></li>
+                    <li><a href="freios.html">Brakes</a></li>
+                    <li><a href="injecaoElo.html">Electronic Injection</a></li>
+                    <li><a href="trocaDeOleo.html">Oil Change</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/newpowermecanica/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+
+</html>
